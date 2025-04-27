@@ -1,13 +1,17 @@
 {
   "name": "xapkinstall",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Open Source XAPK Installer Written in NodeJS",
   "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "contributors": [
+    "Jamie Holding (@cube)",
+    "Gustavo Rodrigues (@qgustavor)"
+  ],
   "license": "ISC",
+  "repository": "qgustavor/xapkinstall",
   "dependencies": {
     "adm-zip": "^0.4.13",
     "commander": "^3.0.2"
