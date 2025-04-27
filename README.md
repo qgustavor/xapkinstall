@@ -3,15 +3,14 @@ Open Source XAPK Installer Written in NodeJS
 
 # Usage
 
-Clone repo and run "npm i" to install dependencies.
+Run `npx xapkinstall`.
 
 ```
-> node . --help
+> npx xapkinstall --help
 
 === XAPK Installer ===
 
 Written by Jamie Holding (@cube)
-
 
 Usage: xapkinstall [options] <xapk>
 
@@ -25,5 +24,5 @@ Options:
 # Example
 
 ```
-> node . ./myxapkfile.xapk
+> npx xapkinstall ./myxapkfile.xapk
 ```
