@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /**
 * XAPK installer
 *  Parses XAPK file and installs to device
@@ -184,4 +185,5 @@ SetupXAPK(XAPKFile).then((commands) => {
             fs.rmdirSync(tempFolder, { recursive: true });
         }
     });
+
 });
